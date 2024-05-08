@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(43, 43, 43);
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    border: solid 5px rgb(252, 255, 255);
+    margin: 150px;
+    bottom: 150px;
+}
+
+#seconds-hands {
+    position: absolute;
+    height: 130px;
+    width: 2px;
+    background-color: rgb(70, 255, 255);
+    margin: 150px;
+    bottom: 150px;
+    opacity: 50%;
+}
+
+#minutes-hands {
+    position: absolute;
+    height: 100px;
+    width: 2px;
+    background-color: rgb(253, 120, 227);
+    margin: 149px;
+    bottom: 149px;
+}
+
+#center {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(252, 255, 55);
+    margin: 145px;
+    bottom: 145px;
+}
