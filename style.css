@@ -8,6 +8,7 @@ body {
 
 .clock {
     display: flex;
+    position: absolute;
     justify-content: center;
     text-align: center;
     height: 300px;
@@ -15,7 +16,7 @@ body {
     border-radius: 150px;
     border: solid 5px rgb(252, 255, 255);
     margin: 150px;
-    bottom: 150px;
+    bottom: 180px;
 }
 
 #seconds-hands {
@@ -23,7 +24,7 @@ body {
     height: 130px;
     width: 2px;
     background-color: rgb(70, 255, 255);
-    margin: 150px;
+    left: 150px;
     bottom: 150px;
     opacity: 50%;
 }
@@ -33,7 +34,16 @@ body {
     height: 100px;
     width: 2px;
     background-color: rgb(253, 120, 227);
-    margin: 149px;
+    left: 149px;
+    bottom: 149px;
+}
+
+#hours-hands {
+    position: absolute;
+    height: 80px;
+    width: 4px;
+    background-color: rgb(205, 112, 255);
+    left: 149px;
     bottom: 149px;
 }
 
@@ -43,6 +53,6 @@ body {
     height: 10px;
     border-radius: 5px;
     background-color: rgb(252, 255, 55);
-    margin: 145px;
+    left: 145px;
     bottom: 145px;
 }
