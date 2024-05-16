@@ -42,7 +42,7 @@ body {
 
 #hours-hands {
     position: absolute;
-    height: 80px;
+    height: 60px;
     width: 4px;
     background-color: rgb(255, 245, 112);
     left: 135px;
